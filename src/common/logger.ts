@@ -10,7 +10,7 @@ export const logger = createLogger({
     }),
   ),
   defaultMeta: {
-    service: 'LP-SRV', // stands for launchpad server
+    service: 'EXPRESS-API',
   },
 });
 
