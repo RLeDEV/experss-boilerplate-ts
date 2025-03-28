@@ -42,4 +42,12 @@ The project uses PostgreSQL with the following default configuration:
 - Password: postgres
 - Database: application
 
-These settings can be found in the `docker-compose.yml` file.
+You can customize these settings by creating a `.env` file in the root directory with the following environment variables:
+
+- `DB_HOST` - The host address of the database
+- `DB_PORT` - The port number of the database
+- `DB_USER` - The username for the database
+- `DB_PASSWORD` - The password for the database
+- `DB_NAME` - The name of the database
+
+Local database settings can be found in the `docker-compose.yml` file.
